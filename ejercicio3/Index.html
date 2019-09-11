@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ej 3, galería. Imagenes.</title>
+        <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+
+        <style>
+        .ocultar{
+            display: none;
+        }
+        
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <header></header>
+            <section>
+                <h1></h1>
+                <p></p>
+                
+
+    <div id="lightgallery">
+        <a href="images/a1.jpg" data-sub-html="#caption1">
+            <img src="images/a4.jpg" />
+        </a>
+        <a href="images/a2.jpg">
+            <img src="images/a5.jpg" />
+        </a>
+        
+      </div>
+         <div id="caption1" class="ocultar">
+             <h4>imagen uno</h4> 
+             <p>paisaje padre</p>
+
+         </div>
+      </div>
+  
+  
+            </section>
+        </div>
+        <!-- jQuery version must be >= 1.8.0; -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/lightgallery-all.js"></script>
+
+    <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <!-- lightgallery plugins -->
+    <script src="modules/lg-thumbnail.js"></script>
+    <script src="modulos/lg-fullscreen.min.js"></script>
+
+
+    
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery(); 
+        });
+    </script>
+
+
+</body>
+</html>

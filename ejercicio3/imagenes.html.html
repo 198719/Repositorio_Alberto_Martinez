@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Imágenes responsivas</h1>
+            <p></p>
+        </header>
+        <section>
+
+            <picture>
+                <source media="(min-width:950px)" srcset="images/2grande.jpg">
+                    <source media="(min-width:460px)" srcset="images/2med.jpg">
+                        <source media="(min-width:0px)" srcset="2medok.jpg">
+                        <img src="images/2medok.jpg" alt="imagen de paisaje">
+            </picture>
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>
