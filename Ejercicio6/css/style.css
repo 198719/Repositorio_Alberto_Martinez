@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}    
+
+#wraper {
+    width: 80%;
+    /*height: 100vh;*/
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+  /* flex-direction: column-reverse; */
+  /*flex-wrap: wrap-reverse;*/
+  /* Flex flow es combinación de los dos anteriores*/
+  /*flex-flow: column wrap;*/
+  justify-content: center;
+  align-items: baseline;
+}
+section {
+    border: solid black 1px;
+    /*width: 400px;*/
+}
+p {
+    padding: 1rem;
+}
+.uno {
+    background-color: blueviolet;
+}
+.dos {
+    background-color: blue;
+    height: 100px;
+}
+.tres {
+    background-color: bisque;
+    
+}
+.cuatro {
+    background-color: beige;
+    height: 200px;
+    align-self: flex-start;
+}
+.cinco {
+    background-color: rgb(6, 136, 136);
+}
+.seis {
+   background-color: aquamarine; 
+}
+/* Segundo wraper */
+#wraper2 {
+    width: 80%;
+    margin: 0%;
+    background-color: azure;
+    display: wrap;
+   
+    
+}
+.box {
+    width: 300;
+ /**/
+}
