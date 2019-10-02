@@ -1,6 +1,35 @@
 html {
     box-sizing: border-box;
 }
-{
-    header
+
+/*  header */ 
+
+/* m*/
+
+
+
+body {
+    background-color: pink;
 }
+
+#container {
+
+}
+
+
+
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    background-color: aliceblue;  
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+  
