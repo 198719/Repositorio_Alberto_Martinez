@@ -5,14 +5,24 @@ html {
 /*  header */ 
 
 /* m*/
-
-
-
-body {
-    background-color: pink;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
+
+body {}
+
 #container {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 100vh 100vh 100vh;
+    grid: gap:10px;
+    grid-template-areas:
+        "h h h h "
+        "m m m m "
+        "f f f f "
 
 }
 

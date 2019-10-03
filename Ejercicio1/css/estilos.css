@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 1em;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: black 20px solid;
+}
+.rojo {
+     color: red;
+}
+article {
+    border: double 4px black;
+    padding: 1rem;
+}
+.primero {
+    margin: 80px 100px 100px 150pxpx;
+    background-color: green;
+}
