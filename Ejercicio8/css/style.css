@@ -1,0 +1,27 @@
+
+
+
+
+
+
+nav {
+    display: flex;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    list-style: none;
+}
+
+article {
+    padding: 20px;
+    background-color: aqua;
+    border-block-color: black;    
+
+}
+
+footer {
+    padding: 20px;
+    background-color: blue;
+}
