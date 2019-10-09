@@ -25,9 +25,9 @@ body {}
          "f f f f "
 }
 header {
-    background-image:url();
+    background-image:url(../images/Andamos_chambeando.svg);
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
     grid-area: h;
 }
 
