@@ -14,69 +14,103 @@ html {
 
 body {}
 
-#container {
+/*#container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100vh 100vh 100px;
+    grid-template-rows:50vh 50vh 50px;
     grid-gap: 10px;
-    grid-template-areas:
+   grid-template-areas:
          "h h h h "
          "m m m m "
-         "f f f f "
+         "f f f f " 
+         
 }
+*/
 header {
-    background-image:url(../images/Andamos_chambeando.svg);
+    
     background-size: cover;
-    height: 100vh;
+    height: 10px;
     grid-area: h;
 }
 
-main{
+/*main{
     grid-area: m;
-    background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 26%, rgba(246,41,12,1) 26%, rgba(246,41,12,1) 26%, rgba(240,47,23,1) 48%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 74%, rgba(250,3,3,1) 74%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(26%, rgba(252,252,252,1)), color-stop(26%, rgba(246,41,12,1)), color-stop(26%, rgba(246,41,12,1)), color-stop(48%, rgba(240,47,23,1)), color-stop(48%, rgba(255,255,255,1)), color-stop(73%, rgba(255,255,255,1)), color-stop(74%, rgba(255,255,255,1)), color-stop(74%, rgba(250,3,3,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 26%, rgba(246,41,12,1) 26%, rgba(246,41,12,1) 26%, rgba(240,47,23,1) 48%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 74%, rgba(250,3,3,1) 74%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 26%, rgba(246,41,12,1) 26%, rgba(246,41,12,1) 26%, rgba(240,47,23,1) 48%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 74%, rgba(250,3,3,1) 74%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 26%, rgba(246,41,12,1) 26%, rgba(246,41,12,1) 26%, rgba(240,47,23,1) 48%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 74%, rgba(250,3,3,1) 74%);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(252,252,252,1) 26%, rgba(246,41,12,1) 26%, rgba(246,41,12,1) 26%, rgba(240,47,23,1) 48%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 74%, rgba(250,3,3,1) 74%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fa0303', GradientType=1 );
+    
     
 }
+*/
 main h1{
     font-size: 5rem;
     padding: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-footer {
+
+
+.uno {
+    flex-basis: 20%;
+   
+    
+}
+
+
+.dos {
+    
+    flex-basis: 20%;
+   
+    float: inherit;
+  
+    
+    
+}
+
+
+.tres {
+    flex-basis: 20%;
+
+}
+
+#sectionclass .dos {
+    position:absolute;
+    z-index:0;
+
+}
+
+
+/*footer {
     grid-area: f;
     background-color: black;
-}
-.up {
+}*/
+/*.up {
     background-color: skyblue;
     grid: area 3/4/2/3;
     z-index: 1;
-}
+}*/
  nav ul {
      display: flex;
      list-style: none;
      justify-content: flex-end;
-     padding: 50px;
+     padding: 150px;
  }
 
  li a {
      text-decoration: none;
      transition: color 0.3s ease;
      padding: 1rem;
+    
  }
-img {
-    height: 100px;
-}
+
 
 .icon-twitter {
+    height: 150px;
     /* filter:  */
 }
+
+.icon-instagram {
+    height: 150px;
+    
+}
+
 
 .icon:hover,
 .icon:focus {
@@ -108,4 +142,4 @@ img {
 }
 
 
-  
+

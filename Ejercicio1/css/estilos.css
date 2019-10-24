@@ -1,19 +1,76 @@
+html {
+    box-sizing: border-box;
+    margin: 0%
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap');
+
+
+
+
+nav {
+    padding: 4rem;
+    font-size: 4rem;
+    bar
+    
+    
+    text-decoration: none;
+    
+    background-color: brown;
+
+
+}
+
+
+
+
+
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+
+
 #container {
     width: 80%;
     margin: 0 auto;
-    background-color: beige;
-    padding: 1em;
+    background-color:burlywood;
+    padding: 3em;
 }
+
+
+
+
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-bottom: black 20px solid;
+    
 }
+
+ol,ul{
+    list-style: none;
+    
+}
+
+
 .rojo {
      color: red;
 }
 
-
+article {
+    border: double 4px black;
+    padding: 1rem;
+}
 
 
 .primero {
@@ -22,12 +79,13 @@ h1 {
 }
 
 video {
-    width: 3500px;
-    height: 500px;
+    width: 800px;
+    height: 600px;
 }
 footer {
-    padding: 30px;
-    background-color: brown
+    padding: 60px;
+    background-color: brown;
+    font-size: 4rem;
 }
 
 h1 {

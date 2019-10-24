@@ -1,25 +1,138 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0%;
+}
+ .h1{
+     background:blue;
+     padding: 20;
+     
+
+ }
+
+
+
+#figcaption class {
+    background-color: black;
+     
+     
+ }
 
 
 
 
 
+.container {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 
-nav {
+header{
+    background: brown;
+    padding: 2rem;
+    
+}
+
+.nav ul {
+display: flex;
+list-style: none;
+justify-content: flex-end; 
+}
+
+ul {
     display: flex;
     list-style: none;
 }
+
+
+li a {
+    padding: 5rem;
+    text-decoration: none;
+    color:black;
+    
+}
+
+li a:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+li a:visited {
+    color:black;
+}
+
 
 main {
     display: flex;
-    list-style: none;
+    background-image: url(../Images/landscape.jpg);
+    width: 800px;
+    height: 1000px;
 }
 
-article {
-    padding: 20px;
-    background-color: aqua;
-    border-block-color: black;    
+ 
+
+section {
+    padding: 2rem;
 
 }
+
+
+.uno {
+    flex-basis: 20%;
+}
+
+.uno p {
+    color: blue;
+}
+    
+
+
+
+
+.dos {
+    flex-basis: 20%;
+}
+
+.dos p {
+    color: blue;
+}
+
+
+
+
+
+.tres {
+    flex-basis: 20%;
+    padding: 3rem;
+    background: cornsilk;
+    border: darkgreen;
+}
+
+.tres p {
+    color: blue;
+}
+
+
+.img {
+    float: center;
+    width: 400px;
+    height: 300px;
+
+}
+
+
+
+
+
+
+
+
 
 footer {
     padding: 20px;
