@@ -1,0 +1,31 @@
+/*----CSS RESET-----*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}    
+
+
+/*----nav-----*/
+nav {
+     padding: 10px;
+     background-color: burlywood;
+     list-style: none;
+
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/*----body-----*/
+h1 {
+    font-size: 5rem;
+    
+}

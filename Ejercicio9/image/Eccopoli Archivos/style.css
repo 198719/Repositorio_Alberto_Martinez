@@ -1,0 +1,456 @@
+/* ----------- RESET DE CSS -----------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0%;
+}
+
+
+/* -------------------------Menú propiedades----------------*/
+header {
+    width: 100%;
+}
+
+ nav {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #024959;
+    position: relative;
+    z-index: 30;
+}
+
+.menu_bar {
+    display: none;
+    position: relative;
+    z-index: 5;
+    
+    
+}
+
+nav ul {
+    overflow: hidden;
+    list-style: none;
+    
+}
+
+
+nav ul li {
+    float: left;
+    
+
+}
+
+
+nav ul li a {
+    color: #ffffff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight:bold
+}
+
+nav ul li span {
+    margin-right: 10px;
+}
+
+nav ul li a:hover {
+    background: #037e8c;
+}
+
+
+/* --------------------------General----------------*/
+
+
+.mision {
+    background-color:#7b90a1;
+    
+}
+
+.caja_mision {
+    background-color:#657685;
+    padding: 5%;
+}
+
+.contenedor-cajas {
+    background-color: #ffffff;
+}
+
+.caja_rafael {
+    padding: 5%;
+   
+    
+}
+
+.caja_pierre {
+    padding: 5%;
+}
+
+.caja_jesula {
+    padding: 5%;
+}
+
+
+.caja_travis {
+    padding: 5%;
+}
+
+.caja_vikram {
+    padding: 5%;
+}
+
+
+.caja_robert {
+    padding: 5%;
+}
+
+/* --------------------------------------FLEX BOX----------------------*/
+
+
+
+
+
+
+
+/* --------------------------Estilos Tipográficos----------------------*/
+
+
+h1 { 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
+    font-weight:bold;
+    position: absolute;
+    text-align: center;
+    left: 15%;
+    right: 15%;
+    color: #ffffff;
+    text-shadow: 3px 4px 15px #0e1213;
+    top: 30%;
+}
+
+/* -----------------------------------MEDIA QUERIE MENU----------------------*/
+
+@media screen and (max-width: 800px) {
+     nav {
+        width: 65%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+    }
+
+     nav ul li {
+        display: inline-block;
+        float: none;
+        border-bottom: 1px solid rgba(225,225,255,.3);
+    }
+   .menu_bar {
+        display: block;
+        width: 100%;
+        background: #ccc;
+    }
+
+    .menu_bar {
+        padding: 20px;
+        display: block;  
+        background: #024959;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 25px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+    }
+
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 20px;
+        background: #024959;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+
+    }
+
+    .menu_bar span {
+        float: right;
+        font-size: 40px;
+    }
+    
+}
+
+
+
+/* -----------------------------------MEDIA QUERIE H1----------------------*/
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+       
+        position: relative;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight:bold;
+        position: absolute;
+        text-align: center;
+        left: 15%;
+        right: 15%; 
+        text-shadow: 3px 4px 15px #0e1213;
+        top: 12%; } 
+         } 
+
+
+
+ @media screen and (min-width: 601px) {
+            h1 {
+               
+                position: relative;
+                font-size: 2.3rem;
+                text-align: center;
+                font-weight:bold;
+                position: absolute;
+                text-align: center;
+                left: 15%;
+                right: 15%;
+                text-shadow: 3px 4px 15px #0e1213;
+                top: 26%;} 
+                 } 
+
+
+  @media screen and (min-width: 1100px) {
+                    h1 {
+                       
+                 font-size: 4rem;
+                 font-weight:bold;
+                 position: absolute;
+                 text-align: center;
+                 left: 15%;
+                right: 15%; 
+                 text-shadow: 3px 4px 15px #0e1213;
+                 top: 30%;} 
+                         } 
+
+
+
+
+h2 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    left: 40%; 
+}
+
+
+.pmision {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+         
+}
+.prafael {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.ppierre {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+.pjesula {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.ptravis {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+.pvikram {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+.probert {
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+
+/*---------------------------------------Header-------------------------------------------*/
+
+
+
+
+/*----------------------------------images-----------------*/
+img {
+    max-width: 100%;
+}
+
+
+.texto_home {
+    background-image: url(../Image/pescador.jpg);
+    float: initial;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-block: 20%;
+}
+
+.logo_eccopoli {
+    width: 20;
+    height: 20%;
+    position: absolute;
+    top: 2%;
+    left: 10%;  
+}
+.rafael {
+    width: 80%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position: relative;
+
+}
+
+.pierre {
+    width: 80%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position: relative;
+}
+
+
+.jesula {
+    width: 80%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position: relative;
+}
+
+
+.travis {
+    width: 80%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position: relative;
+}
+
+.vikram {
+    width: 80%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position: relative;
+}
+
+
+.robert {
+    width: 80%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    position: relative;
+}
+
+
+/* --------------------------Estructura----------------------*/
+
+
+
+
+
+
+
+
+
+/* --------------------------MEDIA QUERIES  CAJAS DE INTEGRANTES DE EQUIPO----------------------*/
+
+
+@media screen and (min-width: 800px) {
+
+    .caja_rafael,
+    .caja_pierre,
+    .caja_jesula,
+    .caja_travis,
+    .caja_vikram,
+    .caja_robert {
+    min-width: 2em;
+    display: inline-block;
+   
+}
+
+    .caja_rafael {
+        width: 33%;
+        }
+        
+    .caja_pierre {
+        width: 33%;
+        }
+
+     .caja_jesula {
+         width: 33%;
+         }
+
+     .caja_travis {
+         width: 33%;
+         }
+         
+
+     .caja_vikram {
+      width: 33%;}
+
+      .caja_robert {
+        width: 33%;}
+   
+}
+
+
+
+/* --------------------------Footer----------------------*/
+
+
+footer {
+
+    background-color: #15232a;
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+    
+   }
+
+
+/* --------------------------Páginas----------------------*/

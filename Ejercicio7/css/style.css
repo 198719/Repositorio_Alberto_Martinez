@@ -12,7 +12,7 @@ html {
 }
 
 
-body {}
+
 
 /*#container {
     display: grid;
@@ -28,9 +28,9 @@ body {}
 */
 header {
     
-    background-size: cover;
+ 
     height: 10px;
-    grid-area: h;
+    
 }
 
 /*main{
@@ -45,36 +45,37 @@ main h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+main.div {
+     position: relative;
+     left: 0;
+     right: 0;
+}
 
-
-.uno {
+div.uno {
+    position: absolute;
     flex-basis: 20%;
+    left: 0;
+    right: 0;
+    
+}
+
+
+div.dos {
+    position: absolute;
+    flex-basis: 20%; 
    
-    
 }
 
 
-.dos {
-    
+div.tres {
     flex-basis: 20%;
-   
-    float: inherit;
-  
+    position: absolute;
     
+   /* z-index: 3;*/
     
 }
 
 
-.tres {
-    flex-basis: 20%;
-
-}
-
-#sectionclass .dos {
-    position:absolute;
-    z-index:0;
-
-}
 
 
 /*footer {
