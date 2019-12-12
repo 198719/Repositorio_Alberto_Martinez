@@ -13,7 +13,7 @@ html {
 /*----nav-----*/
 nav {
      padding: 10px;
-     background-color: burlywood;
+     background-color: yellowgreen;
      list-style: none;
 
 }
@@ -27,5 +27,53 @@ ul {
 /*----body-----*/
 h1 {
     font-size: 5rem;
+    padding: 1rem; 
+}
+
+.go-back {
+    font: bold;
+    font-size: 1.5rem;
+    color: white;
+    background: yellowgreen;
+    padding: 4%;
+    margin: 3%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+     border: 0px solid #000000;
+     text-decoration: none;
+}
+
+
+.error{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 1% 36% 30% 30%;
+}
+
+.texto{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    color: white;
+    font: bold;
+    padding: 15% 50% 30% 30%;
     
+}
+
+
+.sobre {
+    position: absolute;
+    float: left;
+}
+
+.icon {
+    padding: 2rem;
+    size: 2rem;
+    color: navy;
+}
+
+.icon :hover {
+    color: yellowgreen;
+
 }

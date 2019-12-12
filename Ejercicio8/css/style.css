@@ -39,6 +39,14 @@ header{
     
 }
 
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
 .nav ul {
 display: flex;
 list-style: none;
@@ -119,6 +127,9 @@ section {
 }
 
 
+
+
+
 .img {
     float: center;
     width: 400px;
@@ -126,12 +137,12 @@ section {
 
 }
 
-
-
-
-
-
-
+.pie {
+    font-family: 'Roboto', sans-serif;
+    font: bold;
+    color: white;
+    font-size: 1.5rem;
+}
 
 
 footer {
