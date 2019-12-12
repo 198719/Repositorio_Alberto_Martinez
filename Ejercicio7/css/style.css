@@ -13,6 +13,9 @@ html {
 
 
 
+/************************************************ PARALAX***********/
+
+
 
 /*#container {
     display: grid;
@@ -117,6 +120,46 @@ div.tres {
 .icon:focus {
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
+
+
+
+.uno {
+    size: 80%;
+}
+
+.tres {
+    padding: 35% 10% 0% 45%;
+}
+
+
+h1 {
+    position: absolute;
+    color: black;
+    font: bold;
+    text-align: center;
+}
+
+
+.back{
+    position: absolute;
+    float: left;
+    width:100%;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1281px) {
     html {
